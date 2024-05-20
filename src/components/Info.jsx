@@ -8,7 +8,7 @@ export default function Info() {
                 <img src={bg3} alt="" className="w-full h-full object-cover" />
             </div>
 
-            <div className="w-[80%] mx-auto relative z-[1] flex flex-col items-center py-[80px]">
+            <div className="w-[80%] mx-auto relative z-[1] flex flex-col items-center py-[80px] sm:flex-row sm:justify-between">
                 {info.map(el => (
                     <div className="flex flex-col items-center mb-10">
                         <h3 className="text-[60px] font-bold text-[#11686d] mb-[25px]">{el.number}</h3>

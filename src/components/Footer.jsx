@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="w-full bg-[#0d0dc8]">
             <div className="w-[80%] mx-auto flex flex-col items-center py-10">
                 {/* contact */}
-                <div className="flex items-center gap-4 mb-10">
+                <div className="flex items-center gap-4 mb-10 sm:gap-[300px]">
                     <div className="flex flex-col items-center gap-3">
                         <div className=" bg-main-0 p-[10px]">
                             <img src={phone} alt="" />

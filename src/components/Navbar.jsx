@@ -10,7 +10,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center gap-3">
                     <img src={call} alt="" />
-                    <p><span className="hidden text-[15px] text-white font-bold"> call us now</span> <span className="text-[15px] text-white font-bold">+44 00 000 123</span></p>
+                    <p><span className="hidden text-[15px] sm:inline text-white font-bold"> call us now</span> <span className="text-[15px] text-white font-bold">+44 00 000 123</span></p>
 
                 </div>
 
