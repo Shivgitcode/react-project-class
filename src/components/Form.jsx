@@ -2,8 +2,8 @@ import { woman } from "../assets";
 
 export default function Form() {
     return (
-        <div className="relative z-[1] w-[80%] mx-auto py-10 sm:py-0 sm:mt-10">
-            <h1 className=" text-[40px] text-white font-semibold mb-[40px] sm:w-[50%] sm:ml-auto h-[50px]">Leave <span className=" text-main-0">Money Problem </span>to us
+        <div className="relative z-[1] w-[80%] mx-auto py-10 sm:py-0 sm:mt-10 flex flex-col ">
+            <h1 className=" text-[40px] text-white font-semibold mb-[40px] sm:w-[50%] sm:ml-auto sm:h-[50px]">Leave <span className=" text-main-0">Money Problem </span>to us
                 and <span className="text-main-0">just focus on your Business</span></h1>
 
 
@@ -12,8 +12,8 @@ export default function Form() {
                     <img src={woman} alt="" />
                 </div>
 
-                <div className=" bg-[#00008b] p-[25px] w-full flex flex-col justify-start items-start sm:w-fit rounded-tr-[30px]">
-                    <h2 className="text-[25px] text-white font-medium mb-[20px]">Leave your number and we
+                <div className=" bg-[#00008b] p-[25px] w-full flex flex-col justify-start items-start sm:w-[500px]  rounded-tr-[30px] relative sm:top-20">
+                    <h2 className="text-[25px] text-white font-medium mb-[20px] sm:text-[40px]">Leave your number and we
                         will call you back</h2>
                     <p className=" text-[15px] text-white mb-[25px]">Get up to $5000* within 10 minutes**</p>
 
